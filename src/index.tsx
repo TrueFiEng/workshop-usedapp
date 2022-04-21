@@ -13,9 +13,7 @@ const root = ReactDOM.createRoot(
 const config: Config = {
   readOnlyChainId: Rinkeby.chainId,
   readOnlyUrls: {
-    [Mainnet.chainId]: 'https://mainnet.infura.io/v3/57fc2c19095745e59ab96a4aa87dada8',
     [Rinkeby.chainId]: 'https://rinkeby.infura.io/v3/57fc2c19095745e59ab96a4aa87dada8',
-    [Arbitrum.chainId]: 'https://arb1.arbitrum.io/rpc',
     [ArbitrumRinkeby.chainId]: 'https://rinkeby.arbitrum.io/rpc',
   },
 }
